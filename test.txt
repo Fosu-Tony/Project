@@ -1,0 +1,24 @@
+#creating Data frame info on my 20 friends
+
+#Gender, Age, First Names, Last Names, Marital Status, Nationality
+
+First_Names<-c("Seth","Patrick","James","Manuel","Osei","Diana","Ruth","Victoria","Lydia","Samuel","hopeson","Moses","Vida","David","Eric","Bonsu","Osei","Akoto","Adjei","Desmond")
+Last_Names<-c("Appiah","Yevu","Anagonu","Yeboah","Boakye","Yiadom","Setsoana","Nyannor","Jackson","Hanson","Gyamfua","Rockson","Migber","Apetorgbor","Addo","Dankwa","Bonsu","Tutu","Boahen","Oppong")
+Ages<-c(28,23,45,67,39,34,28,29,45,40,38,31,37,38,42,35,38,29,33,28)
+Marital_Status<-c("Married","Single","Married","Divorced","Married","Single","separated","Single","Married","single","Married","Single","separated","Divorced","single","Married","Married","single","single","Married")
+Gender<-c("M","F","M","M","M","F","F","F","F","M","F","M","F","M","F","M","F","M","F","M")
+Nationality<-c("Ghana","Ghana","Ghana","Ghana","Ghana","South Africa","Nigeria","Somalia","Ghana","Sudan","Canada","Uganda","Ghana","Togo","Ghana","Ghana","Ghana","U.S.A","U-K","Ghana")
+
+#Types of variables
+typeof(First_Names)
+typeof(Last_Names)
+typeof(Ages)
+typeof(Marital_Status)
+typeof(Gender)
+typeof(Nationality)
+is.character(Ages)
+is.double(Ages)
+
+#Creating a Data.Frame for my Variables(Staff_Profile)
+
+data.frame(First_Names,Last_Names,Ages,Marital_Status,Gender,Nationality)
